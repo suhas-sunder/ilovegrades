@@ -4,3 +4,10 @@
 
 [dev]
   command = "react-router dev"
+
+# netlify.toml
+[[redirects]]
+  from = "/:path/"
+  to = "/:path"
+  status = 301
+  force = true
