@@ -2,8 +2,7 @@
   from = "/*/"
   to = "/:splat"
   status = 301
-  force = true
-  
+
 [build]
   command = "react-router build"
   publish = "build/client"
